@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html> 
+
+   <head> 
+   <title> The Link Photographer </title>
+   <link rel = "shortcut icon"   type = "image/png"   href= "Z.png">
+   <link rel = "stylesheet"  type = "text/css"  href = "lightbox.min.css">
+   <script type = "text/javascript" src = "lightbox-plus-jquery.min.js" >
+   </script>
+  
+  <style> 
+   *{
+     margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+
+  body{
+      background:#fff;
+      font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    }
+  h1{
+      color: rgb(26, 24, 24);
+      text-align: center;
+      font-size: 45px;
+    }
+
+  h3{
+      color: rgb(255, 0, 0);
+      opacity: 0.5;
+      text-align: center;
+    }
+   
+   h2{
+     color:rgb(255, 0, 0);
+     opacity: 0.5;
+     transform: translateX(2%);
+     font-weight: 200;
+     font-size: 35px;
+   }
+
+   
+   nav{
+    width: 170%;
+    height: 100px;
+    background-color:black;
+    }
+
+
+  ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+    }
+
+
+    ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 0 20px;
+
+    }
+
+    ul li a:hover {
+    color: rgb(240, 70, 70);
+    }
+
+    .About-button
+     {
+     font-size: 45px;
+     font-weight: 200;
+     color:rgb(250, 0, 0);
+     transform: translateX(69%);
+     }
+
+     
+     .logo2
+     {
+       transform: translateX(600px);
+     }
+   
+  
+
+       .Gallery-One{
+           margin: 10px 50px;
+
+       }
+
+       .Gallery-One img{
+           transition: 1s;
+           padding: 15px;
+           width: 200px;
+
+       }
+
+       .Gallery-One img:hover{
+           filter: grayscale(100%);
+           transform: scale(1.1);
+       }
+
+       .Collection-One h1 {
+           color:rgb(255, 0, 0);
+           font-weight: 200;
+           transform: translateX(-1%);
+           opacity: 0.6;
+       }
+
+
+       .Gallery-Two{
+           margin: 10px 50px;
+
+       }
+
+       .Gallery-Two img{
+           transition: 1s;
+           padding: 15px;
+           width: 200px;
+
+       }
+
+       .Gallery-Two img:hover{
+           filter: grayscale(100%);
+           transform: scale(1.1);
+       }
+
+       .Collection-Two h1 {
+           color:rgb(255, 0, 0);
+           font-weight: 200;
+           transform: translateX(-1%);
+           opacity: 0.6;
+       }
+
+       .Gallery-Three{
+           margin: 10px 50px;
+
+       }
+
+       .Gallery-Three img{
+           transition: 1s;
+           padding: 15px;
+           width: 200px;
+
+       }
+
+       .Gallery-Three img:hover{
+           filter: grayscale(100%);
+           transform: scale(1.1);
+       }
+
+       .Collection-Three h1 {
+           color:rgb(255, 0, 0);
+           font-weight: 200;
+           transform: translateX(-1%);
+           opacity: 0.6;
+       }
+
+
+       .Gallery-Four{
+           margin: 10px 50px;
+
+       }
+
+       .Gallery-Four img{
+           transition: 1s;
+           padding: 15px;
+           width: 200px;
+
+       }
+
+       .Gallery-Four img:hover{
+           filter: grayscale(100%);
+           transform: scale(1.1);
+       }
+
+       .Collection-Four h1 {
+           color:rgb(255, 0, 0);
+           font-weight: 200;
+           transform: translateX(-1%);
+           opacity: 0.6;
+       }
+
+
+       html,body
+       {
+            height: 100%;
+
+        }
+
+        #container
+        {
+            min-height: 100%
+        }
+
+        .social-media {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 15px;
+            font-size: 35px;
+            color: rgb(255, 0, 0);
+            text-align: left;
+            transform: translateX(3%);
+            font-weight: 200;
+            
+        }
+
+        .follow-me{
+          color:rgb(255, 0, 0);
+           font-weight: 200;
+           font-size: 70px;
+           transform: translateX(4%);
+           text-align: left;
+        }
+
+        </style>
+    
+        </head>
+        <body> 
+    
+        <nav>
+            <ul>
+    
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Collections.html">Portfolio</a></li>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <br /><br />
+          <h1> The Link Photographer</h1>
+          <h3> A Photography Portfolio Webpage</h3>
+          <br/><br/><br/><br/>
+
+
+      <div id = "container">
+        
+        <div class="Collection-One">
+          <h1>Collection #1: Nature</h1>
+        </div>
+
+      <div class = "Gallery-One">
+          <a href= "A.JPG" data-lightbox = "mygallery" data-title = "Leaf Macrophotography" ><img src="A.JPG"></a>
+          <a href= "B.JPG" data-lightbox = "mygallery" data-title = "A New Jersey Sunset" ><img src="B.JPG"></a>
+          <a href= "C.JPG" data-lightbox = "mygallery" data-title = "Purple Flowers" ><img src="C.JPG"></a>
+          <a href= "D.JPG" data-lightbox = "mygallery" data-title = "Yellow Flowers" ><img src="D.JPG"></a>
+          <a href= "E.JPG" data-lightbox = "mygallery" data-title = "A Duck's Solo Portrait" ><img src="E.JPG"></a>
+          <a href= "I.JPG" data-lightbox = "mygallery" data-title = "Midsummer's Leaves" ><img src="I.JPG"></a>
+          <a href= "J.JPG" data-lightbox = "mygallery" data-title = "The Forest Floor" ><img src="J.JPG"></a>
+          <a href= "K.JPG" data-lightbox = "mygallery" data-title = "Pink Flowers" ><img src="K.JPG"></a>
+          <a href= "L.JPG" data-lightbox = "mygallery" data-title = "Squad of Ducks" ><img src="L.JPG"></a>
+          <a href= "M.JPG" data-lightbox = "mygallery" data-title = "White Flowers" ><img src="M.JPG"></a>
+      </div>
+
+
+      <div class="Collection-Two">
+        <h1>Collection #2: Princeton, New Jersey</h1>
+      </div>
+
+    <div class = "Gallery-Two">
+      <a href= "AB.JPG"   data-lightbox = "mygallery" data-title = "The Nassau Hall Tiger: Side View" ><img src="AB.JPG"></a>
+        <a href= "BC.JPG" data-lightbox = "mygallery" data-title = "John Witherspoon Statue" ><img src="BC.JPG"></a>
+        <a href= "CD.JPG" data-lightbox = "mygallery" data-title = "Latin Engravement" ><img src="CD.JPG"></a>
+        <a href= "DE.JPG" data-lightbox = "mygallery" data-title = "Princeton University Campus" ><img src="DE.JPG"></a>
+        <a href= "EF.JPG" data-lightbox = "mygallery" data-title = "Song of the Vowels" ><img src="EF.JPG"></a>
+        <a href= "FG.JPG" data-lightbox = "mygallery" data-title = "Princeton University Walls" ><img src="FG.JPG"></a>
+        <a href= "GH.JPG" data-lightbox = "mygallery" data-title = "Princeton University Chapel" ><img src="GH.JPG"></a>
+        <a href= "HI.JPG" data-lightbox = "mygallery" data-title = "Ivy League" ><img src="HI.JPG"></a>
+        <a href= "IJ.JPG" data-lightbox = "mygallery" data-title = "The Nassau Hall Tiger: Frontal View" ><img src="IJ.JPG"></a>
+        <a href= "JK.JPG" data-lightbox = "mygallery" data-title = "Princeton University Residence Hall" ><img src="JK.JPG"></a>
+    </div>
+
+
+
+    <div class="Collection-Three">
+      <h1>Collection #3: Sports</h1>
+    </div>
+
+  <div class = "Gallery-Three">
+    <a href= "ABC.JPG"   data-lightbox = "mygallery" data-title = "The Corner Kick" ><img src="ABC.JPG"></a>
+      <a href= "CDE.JPG" data-lightbox = "mygallery" data-title = "Swish" ><img src="CDE.JPG"></a>
+      <a href= "EFG.JPG" data-lightbox = "mygallery" data-title = "The Pool Lineup" ><img src="EFG.JPG"></a>
+      <a href= "GHI.JPG" data-lightbox = "mygallery" data-title = "Nike Soccer Ball" ><img src="GHI.JPG"></a>
+      <a href= "IJK.JPG" data-lightbox = "mygallery" data-title = "Wilson Basketball" ><img src="IJK.JPG"></a>
+      <a href= "KLM.JPG" data-lightbox = "mygallery" data-title = "Before The Break" ><img src="KLM.JPG"></a>
+      <a href= "MNO.JPG" data-lightbox = "mygallery" data-title = "The 30 Yard Line" ><img src="MNO.JPG"></a>
+      <a href= "OPQ.JPG" data-lightbox = "mygallery" data-title = "On the Baseline" ><img src="OPQ.JPG"></a>
+      <a href= "QRS.JPG" data-lightbox = "mygallery" data-title = "Cue Sports: Mid-Game" ><img src="QRS.JPG"></a>
+      <a href= "STU.JPG" data-lightbox = "mygallery" data-title = "The 8-Ball Shot" ><img src="STU.JPG"></a>
+  </div>
+
+
+
+  <div class="Collection-Four">
+    <h1>Collection #4: Miscellaneous</h1>
+  </div>
+
+<div class = "Gallery-Four">
+  <a href= "ABCD.JPG"   data-lightbox = "mygallery" data-title = "Bench of Solitude" ><img src="ABCD.JPG"></a>
+  <a href= "DEFG.JPG"   data-lightbox = "mygallery" data-title = "Pond At Sunset" ><img src="DEFG.JPG"></a>
+  <a href= "GHIJ.JPG"   data-lightbox = "mygallery" data-title = "Highway Views" ><img src="GHIJ.JPG"></a>
+  <a href= "JKLM.JPG"   data-lightbox = "mygallery" data-title = "Barricade Tape" ><img src="JKLM.JPG"></a>
+  <a href= "MNOP.JPG"   data-lightbox = "mygallery" data-title = "The Tipping Point" ><img src="MNOP.JPG"></a>
+  <a href= "PQRS.JPG"   data-lightbox = "mygallery" data-title = "1990s Telephone Pole" ><img src="PQRS.JPG"></a>
+  <a href= "STUV.JPG"   data-lightbox = "mygallery" data-title = "Chain Link Fence" ><img src="STUV.JPG"></a>
+  <a href= "VWXY.JPG"   data-lightbox = "mygallery" data-title = "Street Sign" ><img src="VWXY.JPG"></a>
+  <a href= "ZZZ.JPG"   data-lightbox = "mygallery" data-title = "The Playground" ><img src="ZZZ.JPG"></a>
+  <a href= "ZZZZ.JPG"   data-lightbox = "mygallery" data-title = "A Fall Leaf" ><img src="ZZZZ.JPG"></a>
+  
+</div>
+
+      </div>
+
+      <br><br><br><br>
+
+      <div class = "follow-me">
+        Follow Me:
+    </div>
+
+      <div class = "social-media">
+        <ul><a href="https://www.instagram.com/thelinkphotographer/?hl=en"> <img src="Y.png" width = "50" height= "50">: @thelinkphotographer</a></ul>
+    </div>
+
+
+      <div class = "About-button"> 
+  
+        <a href="About.html"> About Me >>></a></li>
+  
+      </div>
+      
+     
+      <br>
+  
+  
+      <div class = logo2>
+        <img src= F.JPG width="210" height="210">
+      </div>
+  
+        </body>
+
+</html>
